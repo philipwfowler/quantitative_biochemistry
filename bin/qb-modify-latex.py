@@ -1,9 +1,6 @@
 #! /usr/bin/env python
 
-
 import argparse
-
-import gumpy
 
 if __name__ == "__main__":
 
