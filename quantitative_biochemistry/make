@@ -1,0 +1,5 @@
+notebooks = $(wildcard *.ipynb)
+notebook_latex = $(notebooks:.ipynb=.tex)
+
+raw: $(notebook_latex)
+	jupyter-nbconvert --to latex
