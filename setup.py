@@ -1,5 +1,4 @@
 from setuptools import setup
-from gumpy import __version__
 
 setup(
     name='Quantitative Biochemistry Undergraduate Course',
