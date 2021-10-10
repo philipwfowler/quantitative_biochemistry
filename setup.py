@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='Quantitative Biochemistry Undergraduate Course',
-    version=__version__,
+    version=0.2.0,
     author='Philip W Fowler',
     author_email="philip.fowler@ndm.ox.ac.uk",
     description="Twelve lecture course on mathematics for first-year undergraduates studying Biochemistry at the University of Oxford",
