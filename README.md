@@ -4,7 +4,7 @@
 This repository will contain all the lectures for the Quantitative Biochemistry course that is part of the Biochemistry first-year course at Oxford University. 
 
 # Status
-Lectures 1-4 have been recorded. 
+All lectures 1-4 were recorded in 2020/1 using Panopto and split into 10-15 min segments.
 
 # Install
 This is a Python3 module; recommend you install via
@@ -31,4 +31,4 @@ $ open L01.pdf
 ```
 
 Philip W Fowler
-19 October 2020
+10 October 2021
