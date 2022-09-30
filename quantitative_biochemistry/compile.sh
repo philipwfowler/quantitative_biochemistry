@@ -2,7 +2,7 @@
 
 for i in `ls Lecture-*.ipynb`; do
     filename=${i%.*}
-    jupyter-nbconvert-3.8 --to latex ${filename}.ipynb
+    jupyter-nbconvert-3.10 --to latex ${filename}.ipynb
     mv ${filename}.tex foo.tex
     qb-modify-latex.py --latex foo.tex > ${filename}.tex
     pdflatex ${filename}.tex
