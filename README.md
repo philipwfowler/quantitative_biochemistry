@@ -1,5 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/philipwfowler/quantitative_biochemistry/master)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/philipwfowler/quantitative_biochemistry/HEAD)
 
 This repository will contain all the lectures for the Quantitative Biochemistry course that is part of the Biochemistry first-year course at Oxford University. 
 
@@ -9,7 +8,7 @@ All lectures were recorded in 2020/1 using Panopto and split into 10-15 min segm
 # Install
 This is a Python3 module; recommend you install via
 
-`python setup.py develop --user`
+`python install -e .`
 
 This will put the script `qb-modify-latex.py` into your `$PATH` which you will need below.
 
